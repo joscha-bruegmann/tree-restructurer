@@ -1,0 +1,153 @@
+{
+    "Pattern": [
+        "S",
+        [
+            "NP",
+            [
+                "N'"
+            ],
+            [
+                "CL",
+                [
+                    "C"
+                ],
+                [
+                    "S",
+                    [
+                        "NP"
+                    ],
+                    [
+                        "VP",
+                        [
+                            "V'"
+                        ]
+                    ]
+                ]
+            ]
+        ],
+        [
+            "VP"
+        ]
+    ],
+    "Target": [
+        "S",
+        [
+            "NP"
+        ],
+        [
+            "VP",
+            [
+                "V'"
+            ],
+            [
+                "NP",
+                [
+                    "N'"
+                ],
+                [
+                    "CL",
+                    [
+                        "C"
+                    ],
+                    [
+                        "VP"
+                    ]
+                ]
+            ]
+        ]
+    ],
+    "Rules": {
+        "()": {},
+        "(0,)": {
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "targetIndex": [
+                [
+                    1,
+                    1
+                ]
+            ]
+        },
+        "(0,0)": {
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "targetIndex": [
+                [
+                    1,
+                    1,
+                    0
+                ]
+            ]
+        },
+        "(0,1)": {
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "targetIndex": [
+                [
+                    1,
+                    1,
+                    1
+                ]
+            ]
+        },
+        "(0,1,0)": {
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "targetIndex": [
+                [
+                    1,
+                    1,
+                    1,
+                    0
+                ]
+            ]
+        },
+        "(0,1,1)": {
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "targetIndex": [
+                []
+            ]
+        },
+        "(0,1,1,0)": {
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "targetIndex": [
+                [
+                    0
+                ]
+            ]
+        },
+        "(0,1,1,1)": {
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "targetIndex": [
+                [
+                    1
+                ]
+            ]
+        },
+        "(0,1,1,1,0)": {
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "targetIndex": [
+                [
+                    1,
+                    0
+                ]
+            ]
+        },
+        "(1,)": {
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "targetIndex": [
+                [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "Pattern": [
+        "IP",
+        [
+            "NP",
+            [
+                "N'"
+            ],
+            [
+                "CP",
+                [
+                    "IP",
+                    [
+                        "NP"
+                    ],
+                    [
+                        "VP",
+                        [
+                            "V"
+                        ]
+                    ]
+                ]
+            ]
+        ],
+        [
+            "IP",
+            [
+                "VP"
+            ]
+        ]
+    ],
+    "Target": [
+        "XS",
+        [
+            "IP",
+            [
+                "NP"
+            ],
+            [
+                "VP",
+                [
+                    "V"
+                ],
+                [
+                    "NP",
+                    [
+                        "N'"
+                    ]
+                ]
+            ]
+        ],
+        [
+            "IP",
+            [
+                "NP",
+                [
+                    "N'"
+                ]
+            ],
+            [
+                "VP'"
+            ]
+        ]
+    ],
+    "Rules": {
+        "(0,0)": {
+            "targetIndex": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    0
+                ]
+            ],
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "allowUnspecifiedParents": false,
+            "transferUnspecifiedParents": false
+        },
+        "(0,1)": {
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": false,
+            "allowUnspecifiedParents": false,
+            "transferUnspecifiedParents": false
+        },
+        "(0,1,0)": {
+            "allowUnspecifiedChildren": false,
+            "transferUnspecifiedChildren": false,
+            "allowUnspecifiedParents": false,
+            "transferUnspecifiedParents": false
+        },
+        "(0,1,0,0)": {
+            "targetIndex": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "allowUnspecifiedParents": false,
+            "transferUnspecifiedParents": false
+        },
+        "(0,1,0,1,0)": {
+            "targetIndex": [
+                [
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "allowUnspecifiedParents": false,
+            "transferUnspecifiedParents": false
+        },
+        "(1,0)": {
+            "targetIndex": [
+                [
+                    1,
+                    1
+                ]
+            ],
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "allowUnspecifiedParents": false,
+            "transferUnspecifiedParents": false
+        }
+    }
+}

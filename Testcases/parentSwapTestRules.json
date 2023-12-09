@@ -1,0 +1,36 @@
+{
+    "Pattern": [
+        "A",
+        [
+            "B"
+        ]
+    ],
+    "Target": [
+        "B",
+        [
+            "A"
+        ]
+    ],
+    "Rules": {
+        "()": {
+            "targetIndex": [
+                [
+                    0
+                ]
+            ],
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "allowUnspecifiedParents": true,
+            "transferUnspecifiedParents": true
+        },
+        "(0,)": {
+            "targetIndex": [
+                []
+            ],
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "allowUnspecifiedParents": true,
+            "transferUnspecifiedParents": true
+        }
+    }
+}

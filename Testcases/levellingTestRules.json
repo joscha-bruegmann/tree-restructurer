@@ -1,0 +1,99 @@
+{
+    "Pattern": [
+        "A",
+        [
+            "B",
+            [
+                "C",
+                [
+                    "D"
+                ]
+            ]
+        ]
+    ],
+    "Target": [
+        "X",
+        [
+            "A"
+        ],
+        [
+            "B"
+        ],
+        [
+            "C"
+        ],
+        [
+            "D"
+        ],
+        [
+            "D"
+        ],
+        [
+            "C"
+        ],
+        [
+            "B"
+        ],
+        [
+            "A"
+        ]
+    ],
+    "Rules": {
+        "()": {
+            "targetIndex": [
+                [
+                    0
+                ],
+                [
+                    7
+                ]
+            ],
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "allowUnspecifiedParents": true,
+            "transferUnspecifiedParents": true
+        },
+        "(0,)": {
+            "targetIndex": [
+                [
+                    1
+                ],
+                [
+                    6
+                ]
+            ],
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "allowUnspecifiedParents": true,
+            "transferUnspecifiedParents": true
+        },
+        "(0,0)": {
+            "targetIndex": [
+                [
+                    2
+                ],
+                [
+                    5
+                ]
+            ],
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "allowUnspecifiedParents": true,
+            "transferUnspecifiedParents": true
+        },
+        "(0,0,0)": {
+            "targetIndex": [
+                [
+                    3
+                ],
+                [
+                    4
+                ]
+            ],
+            "allowUnspecifiedChildren": true,
+            "transferUnspecifiedChildren": true,
+            "allowUnspecifiedParents": true,
+            "transferUnspecifiedParents": true
+        }
+    }
+}
